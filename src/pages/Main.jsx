@@ -194,7 +194,7 @@ export default function () {
                 {Array(800).fill().map(AddStar)}
                 <EffectComposer>
                     <Vignette eskil={false} offset={0.2} darkness={1.1} />
-                    <Noise opacity={0.2} />
+                    {/* <Noise opacity={0.1} /> */}
                     {/* <Bloom
                         luminanceThreshold={0}
                         luminanceSmoothing={0.8}
